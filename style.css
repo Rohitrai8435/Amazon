@@ -1,0 +1,282 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#navbar
+{    padding: 5px 5px;
+    height: 60px;
+    background: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.nav_logo
+{
+    height:50px;
+    width: 113px;
+    color: white;
+}
+.logo{
+    height: 100%;
+    margin: 1px;
+    width: 100%;
+    padding: 1px 8px 0px 6px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+.border
+{
+    border:1px solid transparent;
+}
+.border:hover
+{
+    border:1px solid white;
+}
+
+.nav_loca
+{    
+     height:50px;
+     color: #D6D6D6;
+     margin: 5px 2px 5px 0px; 
+     padding: 0px 9px; 
+}
+.loca-icon
+{
+    display: flex;
+    align-items: center;
+}
+.nav-loca-first
+{   color: #CCCC;
+    font-size:0.85rem;
+    margin:15px 0px 0px 15px;
+}
+.nav-loca-second
+{   color: #FFFF;
+    font-size:1rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+.nav_search
+{   
+    border: 1px solid transparent; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    height:39px;
+    border-radius: 5px;
+    width: 60%;
+}
+.nav_search:hover{
+    border: 3px solid #F3A847; 
+}
+.search-select
+{
+    width: 46px;
+    font-size: 0.85rem;
+    height: 40px;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+}
+.search-input{
+    width: 100%;
+    height: 37px;
+    font-size:1rem;
+    border: none;
+    outline: none;
+}
+.search-icon
+{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color:#F3A847;
+
+}
+.nav_sigin
+{
+    height: 50px;
+    color:#D6D6D6
+}
+p small
+{
+    font-size: .85rem;
+    color: #ffff;
+}
+.sigin-second{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+.nav_cart
+{   color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.nav_cart i{
+    font-size: 26px;
+}
+.nav_cart p{
+    font-weight: 700;
+    margin-left: 3px;
+    color: #fff;
+}
+#sidebar
+{
+    height: 40px;
+    background-color:#232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.sideOptions{
+    width: 95%;
+    
+}
+.sideOptions p
+{   
+    padding: 5px 5px;
+    font-size: .90rem;
+    display: inline;
+    margin-left: 10px;
+    color: #ffff;
+}
+.All
+{
+    padding: 5px 5px;
+    font-weight: 700;
+}
+.image-sliding
+{
+ height: 300px;   
+ width: 100% ;
+}
+img
+{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+.contentsection
+{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FEEECA;
+    justify-content:space-evenly;
+
+}
+.box
+{   
+    margin-top: 1rem;
+    height: 400px;
+    width: 20%;
+    padding: 20px 20px;
+    /* border: 2px solid black; */
+    background-color:white;
+}
+.box .image
+{
+    height: 350px;
+    overflow:hidden;
+}
+.box .image img{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box p{
+    padding: 1rem 0rem;
+}
+.box p a{
+    text-decoration: none;
+    
+}
+.panel1
+{
+    height: 50px;
+    margin-top: 8px;
+    background-color: #485769;
+    display: flex;
+    color: #fff;
+    font-size: .80rem;
+    justify-content: center;
+    align-items: center;
+}
+.panel2{
+    display: flex;
+    color:#FFFF;
+    height: 500px;
+    justify-content: space-evenly;
+    background-color:#232F3E;
+}
+ul h2{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+ul a
+{
+    margin: 10px;
+    display:block;
+    text-decoration: none;
+    color:#DDDD;
+}
+.panel3
+{
+    height: 68px;
+    
+    border-top:.3px solid #DDDD;
+    background-color:#232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo_image
+{
+    height: 50px;
+    width: 100px;
+    overflow: hidden;
+}
+.logo_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.panel4
+{
+height: 70px;
+padding: 10px;
+background-color:#0F1111;
+text-align: center;
+
+}
+
+.pages a{
+    
+    text-decoration: none;
+    color: #fff;
+    font-size: .85rem;
+   }
+    .panel4 p{
+        margin: 10px;
+    color:#fff;
+    font-size: .85rem;
+
+   }   
